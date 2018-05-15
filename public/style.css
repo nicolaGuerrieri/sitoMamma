@@ -1,0 +1,124 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.backColor {
+  background-color: #1C5253;
+  color: white;
+}
+
+.white {
+  color: white !important;
+}
+
+.colorePreominante {
+
+  color: #1C5253;
+  padding-right: 15px !important;
+}
+/**1C5253**/
+
+/* Add a gray background color and some padding to the footer */
+
+footer {
+  padding: 25px;
+  color: white;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .colorePreominante {
+      padding-right: 0px !important;
+  }
+}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.conti:hover .image {
+  opacity: 0.3;
+}
+
+.conti:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #1C5253;
+  color: white;
+  font-size: 14px;
+  padding: 16px 32px;
+  border-radius: 20px;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #1C5253;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+ 

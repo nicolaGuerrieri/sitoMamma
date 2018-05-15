@@ -1,0 +1,142 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.backColor {
+  background-color: #1C5253;
+  color: white;
+}
+
+.white {
+  color: white !important;
+}
+
+.colorePreominante {
+
+  color: #1C5253;
+  padding-right: 15px !important;
+}
+/**1C5253**/
+
+/* Add a gray background color and some padding to the footer */
+
+footer {
+  padding: 25px;
+  color: white;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 80px;
+  height: 80px;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .colorePreominante {
+      padding-right: 0px !important;
+  }
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #1C5253;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #1C5253;
+    border-radius: 5px;
+    text-align: center;
+    color: #1C5253;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #1C5253;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #1C5253;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #1C5253;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.ddd{
+  color: #1C5253;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #1C5253;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+ 
