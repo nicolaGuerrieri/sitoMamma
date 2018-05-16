@@ -65,10 +65,10 @@
 
 <body>
 
-    <nav class="navbar navbar-inverse backColor" style="text-align: center;">
+    <nav hidden class="navbar navbar-inverse backColor" style="text-align: center;">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand white" href="#">Le creazioni di Terry</a>
+                <a class="navbar-brand white" href="#">Le creazioni di Maria Teresa</a>
             </div>
 
         </div>
@@ -80,21 +80,24 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+        <div class="carousel-inner"> 
             <div class="item active">
+                <img src="./img/corta.png" alt="New York">
+            </div>
+            <div class="item">
+                <img src="./img/corta2.png" alt="New York">
+            </div>
+            <div class="item ">
                 <img src="./img/ss.jpg" alt="Los Angeles">
             </div>
-
             <div class="item">
-                <img src="./img/ss.jpg" alt="Chicago">
+                <img src="./img/ff.jpeg" alt="Chicago">
             </div>
 
-            <div class="item">
-                <img src="./img/ss.jpg" alt="New York">
-            </div>
         </div>
 
         <!-- Left and right controls -->
@@ -109,11 +112,12 @@
     </div>
     <div class="jumbotron backColor" style="margin-bottom: 0">
         <div class="container text-center">
-            <h1>Ogni creazione è un'emozione...</h1>
+            <h1>Le creazioni di Terry</h1>
+            <h2>Ogni creazione è un'emozione...</h2>
         </div>
     </div>
 
-    <div class="jumbotron ddd">
+    <div class="jumbotron back-row">
         <div class="container text-center">
             <h1>Le mie creazioni</h1>
         </div>
@@ -130,41 +134,52 @@
                 <button class="btn btn-default filter-button" data-filter="set">Set</button>
             </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter orecchini" >
-                <img src="./img/ss.jpg" class="img-responsive" id="pokemon" alt="Bracciale e collana imperiale" onclick="apri('pokemon')">
-                <button class="button">
+                <img src="./img/bracciale.jpeg" class="img-responsive" id="pokemon" alt="Bracciale fatto a mano con rame intrecciato e perline ambrate" onclick="apri('pokemon')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
                     <span>Acquista </span>
                 </button>
             </div>
-
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter orecchini" >
+                <img src="./img/bracciale.jpeg" class="img-responsive" id="pokemon" alt="Bracciale fatto a mano con rame intrecciato e perline ambrate" onclick="apri('pokemon')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bracciali">
-                <img src="./img/ss.jpg" class="img-responsive" id="pokemon1" alt="Bracciale e collana imperiale" onclick="apri('pokemon1')">
-                <button class="button">
+                <img src="./img/ff.jpeg" class="img-responsive" id="pokemon1" alt="Bracciale e collana imperiale" onclick="apri('pokemon1')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
                     <span>Acquista </span>
                 </button>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter orecchini">
-                <img src="./img/ss.jpg" class="img-responsive" id="pokemon5" alt="Bracciale e collana imperiale" onclick="apri('pokemon5')">
+                <img src="./img/aa.jpeg" class="img-responsive" id="pokemon5" alt="Bracciale e collana imperiale" onclick="apri('pokemon5')">
                 <button class="button">
                     <span>Acquista </span>
                 </button>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter set">
-                <img src="./img/ss.jpg" class="img-responsive" id="pokemon4" alt="Bracciale e collana imperiale" onclick="apri('pokemon4')">
+                <img src="./img/dd.jpeg" class="img-responsive" id="pokemon4" alt="Bracciale e collana imperiale" onclick="apri('pokemon4')">
                 <button class="button">
                     <span>Acquista </span>
                 </button>
             </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter collane">
-                <img src="./img/ss.jpg" class="img-responsive" id="pokemon3" alt="Bracciale e collana imperiale" onclick="apri('pokemon3')">
+                <img src="./img/b.jpeg" class="img-responsive" id="pokemon3" alt="Bracciale e collana imperiale" onclick="apri('pokemon3')">
                 <button class="button">
                     <span>Acquista </span>
                 </button>
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter set">
-                <img src="./img/ss.jpg" class="img-responsive" id="pokemon2" alt="Bracciale e collana imperiale" onclick="apri('pokemon2')">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter collane">
+                <img src="./img/d.jpeg" class="img-responsive" id="pokemon2" alt="Bracciale e collana imperiale" onclick="apri('pokemon2')">
+                <button class="button">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter collane">
+                <img src="./img/s.jpeg" class="img-responsive" id="pokemon2" alt="Bracciale e collana imperiale" onclick="apri('pokemon2')">
                 <button class="button">
                     <span>Acquista </span>
                 </button>
@@ -291,7 +306,12 @@
     </div>
 
 
-
+    <div class="jumbotron back-row" style="margin-bottom: 0;">
+        <div class="container text-center">
+            <h1>Vuoi personalizzare il tuo bijoux?</h1><br />
+            <h2>Contattami: lecreazioniditerry@gmail.com</h2>
+        </div>
+    </div>
     <footer class="container-fluid text-center backColor">
         <p>Le creazioni di Terry
             <i class="fab fa-facebook"></i>
