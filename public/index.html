@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Le creazioni di Maria Teresa, gioielli fatti a mano, rame, perline, pietre. Handmade">
     <meta name="keywords" content="Handmade,fatto a mano,gioielli,bracciali,orecchini,collane,rame,perline,bijoux,jewelry,gioielli,bigiotteria,bigiotteria teatrale,teatrale,gioielli toscani,gioielli teatrali, teatrali,bigiotteria,bigiotteria artigianale,artigianale, made,and made jewelry,accessori alta moda,accessori,alta,moda,bijoux made in italy,jewelry made in italy,gioielli sposa accessori,sposa, accessori">
-    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -16,8 +16,15 @@
 
     <link rel="stylesheet" href="./style2.css">
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119780673-1"></script>
 
     <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119780673-1');
         /* Remove the navbar's default margin-bottom and rounded borders */
         $(document).ready(function () {
 
@@ -137,12 +144,12 @@
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter orecchini">
-                    <img src="./img/aa.jpeg" class="img-responsive" id="pokemon" alt="Bracciale fatto a mano con rame intrecciato e perline ambrate"
-                        onclick="apri('pokemon')">
-                    <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
-                        <span>Acquista </span>
-                    </button>
-                </div>
+                <img src="./img/aa.jpeg" class="img-responsive" id="pokemon" alt="Bracciale fatto a mano con rame intrecciato e perline ambrate"
+                    onclick="apri('pokemon')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
 
         </div>
         <div id="myModal" class="modal">
