@@ -48,7 +48,7 @@
                 $(this).removeClass("active");
             }
             $(this).addClass("active");
-
+            $('.aaa').click();
         });
 
         function apri(id) {
@@ -123,6 +123,7 @@
     <div class="jumbotron backColor" style="margin-bottom: 0; ">
         <div class="container text-center">
             <h1>Le creazioni di Maria Teresa</h1>
+            <h3>Ogni realizzazione è unica, fatta interamente a mano</h3>
         </div>
     </div>
     <br />
@@ -132,52 +133,116 @@
         <div class="row">
 
             <div align="center">
-                <button class="btn btn-default filter-button" data-filter="all">Tutto</button>
+                <button class="btn btn-default filter-button aaa" data-filter="all">Tutto</button>
                 <button class="btn btn-default filter-button" data-filter="orecchini">Orecchini</button>
                 <button class="btn btn-default filter-button" data-filter="bracciali">Bracciali</button>
                 <button class="btn btn-default filter-button" data-filter="collane">Collane</button>
+                <button class="btn btn-default filter-button" data-filter="anelli">Anelli</button>
                 <button class="btn btn-default filter-button" data-filter="set">Set</button>
             </div>
             <div hidden class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bracciali">
-                <img src="./img/aa.jpeg" class="img-responsive" id="pokemon" alt="Bracciale fatto a mano con rame, perline e pietre ambrate"
+                <img src="./img/aa.jpeg" class="img-responsive" id="pokemon" alt="Bracciale fatto a mano con rame, perline e pietre ambrate, semirigido con gancio color argento"
                     onclick="apri('pokemon')">
-                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-perline-e-pietre-ambrate-semirigido-con-gancio/192550241281','_blank')">
                     <span>Acquista </span>
                 </button>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bracciali">
-                <img src="./img/braccial.jpeg" class="img-responsive" id="bra" alt="Bracciale in rame lavorato all'uncinetto intrecciato con piccole perline rosse incastonate"
+                <img src="./img/braccial.jpeg" class="img-responsive" id="bra" alt="Bracciale in rame antichizzato lavorato all'uncinetto intrecciato con piccole perline rosse incastonate, lunghezza 18cm"
                     onclick="apri('bra')">
-                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-in-rame-antichizzato/192550245123','_blank')">
                     <span>Acquista </span>
                 </button>
             </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bracciali">
-                <img src="./img/2.jpeg" class="img-responsive" id="bra2" alt="Bracciale in rame rigido, con misura regolabile, con perline effetto swarovsky scure"
+                <img src="./img/2.jpeg" class="img-responsive" id="bra2" alt="Bracciale in rame rigido, con misura regolabile, con mezzi cristalli neri"
                     onclick="apri('bra2')">
-                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-creato-a-mano-in-rame-e-mezzi-cristalli-neri/192550249248','_blank')">
                     <span>Acquista </span>
                 </button>
             </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter orecchini">
                 <img src="./img/ore.jpeg" class="img-responsive" id="ore" alt="Orecchini in rame e perline nere, semirigido con ganci e richiami color oro"
                     onclick="apri('ore')">
-                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Orecchini-creati-a-mano-handmade-in-rame-e-perline-nere/192550252468','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter collane">
+                <img src="./img/s.jpeg" class="img-responsive" id="col3" alt="Collana non rigida con perline color oro, divisa da perle dorate, lunghezza regolabile con pendenti"
+                    onclick="apri('col3')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Collana-fatta-a-mano-handmade-dorata-regolabile/192550254350','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter collane">
+                <img src="./img/col.jpeg" class="img-responsive" id="col3" alt="Collana non rigida con catenina color oro e mezzi cristalli ambrati con pendente color oro e rame antichizzato"
+                    onclick="apri('col3')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Collana-fatta-a-mano-handmade-color-oro-e-mezzi-cristalli-ambrati/192550255750','_blank')">
                     <span>Acquista </span>
                 </button>
             </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bracciali">
-                <img src="./img/1.jpeg" class="img-responsive" id="bra3" alt="Bracciale in rame verde rosso semirigido, con perle incastonate color rosso/rame"
+                <img src="./img/1.jpeg" class="img-responsive" id="bra3" alt="Bracciale in rame verde e rosso semirigido, con perle incastonate color rosso/rame"
                     onclick="apri('bra3')">
-                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-handmade-in-rame-verde-e-rosso-semirigido/192550258601','_blank')">
                     <span>Acquista </span>
                 </button>
             </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter set">
-                <img src="./img/3.jpg" class="img-responsive" id="bra4" alt="Coppia bracciale piu' orecchino in rame. Entrambi semirigidi, rame color verde con inserti color glicine"
+                <img src="./img/3.jpg" class="img-responsive" id="bra4" alt="Coppia bracciale piu' anello in rame. Entrambi semirigidi, rame color verde con inserti color glicine"
                     onclick="apri('bra4')">
-                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-con-rame-intrecciato-e-perline-ambrate/192542100196','_blank')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-piu-anello-in-rame-fatti-a-mano-handmade/192550260891','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter anelli">
+                <img src="./img/anedor.jpeg" class="img-responsive" id="ane4" alt="Anello rigido con misura regolabile, perle dorate con filo di rame antichizzato"
+                    onclick="apri('ane4')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Anello-in-rame-fatto-a-mano-handmade-con-perle-dorate/192550262944','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter collane">
+                <img src="./img/fffff.jpeg" class="img-responsive" id="ccc" alt="Collana a doppio giro con catenina dorata e inserti di perle bianche con cristalli color ambra, non rigido e regolabile"
+                    onclick="apri('ccc')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Collana-a-doppio-giro-fatta-a-mano-handmade/192550265326','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter collane">
+                <img src="./img/col2.jpeg" class="img-responsive" id="col2" alt="Collana semirigida composta da rame color argento intrecciato con uncinetto. "
+                    onclick="apri('col2')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Collana-fatta-a-mano-handmade-semirigida-in-rame-color-argento/192550267140','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter orecchini">
+                <img src="./img/orec.jpeg" class="img-responsive" id="ore1" alt="Orecchini con catenina color argento, inserti rossi e pietre finali color fucsia, non rigido"
+                    onclick="apri('ore1')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Orecchini-fatti-a-mano-handmade-in-rame/192550269124','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter collane">
+                <img src="./img/ff.jpeg" class="img-responsive" id="coll1" alt="Collana con perline bianche e pietre verde smeraldo con sfumature scure. Gancetto di chiusura color oro. Non rigida"
+                    onclick="apri('coll1')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Collana-con-perline-bianche-e-pietre-verde-smeraldo-fatta-a-mano-handmade/192550272786','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bracciale">
+                <img src="./img/bracciale.jpeg" class="img-responsive" id="bra1" alt="Bracciale fatto di rame intrecciato all 'uncinetto con inserti di perline ambrate, semirigido"
+                    onclick="apri('bra1')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Bracciale-fatto-a-mano-handmade-di-rame-intrecciato-all-uncinetto/192550274983','_blank')">
+                    <span>Acquista </span>
+                </button>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter anelli">
+                <img src="./img/anel.jpg" class="img-responsive" id="ane12" alt="Anello a spirale nero fumè fatto con filo di rame conterine e mezzi cristalli neri, si modella al dito largo 2cm semirigido"
+                    onclick="apri('ane12')">
+                <button class="button" onclick="window.open('https://www.ebay.it/itm/Anello-a-spirale-nero-fume-fatto-a-mano-handmade/192550278065#shpCntId','_blank')">
                     <span>Acquista </span>
                 </button>
             </div>
@@ -204,7 +269,7 @@
     </div>
     <footer class="container-fluid text-center backColor">
         <p>Le creazioni di Terry
-            <i class="fab fa-facebook"></i>
+            <!--<i class="fab fa-facebook"></i>-->
 
         </p>
     </footer>
