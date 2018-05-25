@@ -19,58 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119780673-1"></script>
 
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-119780673-1');
-        /* Remove the navbar's default margin-bottom and rounded borders */
-        $(document).ready(function () {
-
-            $(".filter-button").click(function () {
-                var value = $(this).attr('data-filter');
-
-                if (value == "all") {
-                    //$('.filter').removeClass('hidden');
-                    $('.filter').show('1000');
-                }
-                else {
-                    //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-                    //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-                    $(".filter").not('.' + value).hide('3000');
-                    $('.filter').filter('.' + value).show('3000');
-
-                }
-            });
-
-            if ($(".filter-button").removeClass("active")) {
-                $(this).removeClass("active");
-            }
-            $(this).addClass("active");
-            $('.aaa').click();
-        });
-
-        function apri(id) {
-
-            var modal = document.getElementById('myModal');
-            // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById(id);
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            modal.style.display = "block";
-            modalImg.src = img.src;
-            captionText.innerHTML = img.alt;
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function () {
-                modal.style.display = "none";
-            }
-        }
-
-    </script>
+  
 </head>
 
 <body>
@@ -111,7 +60,7 @@
         </div>
 
         <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev" title="Le creazioni di Maria Teresa">
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only">Previous</span>
         </a>
@@ -276,4 +225,57 @@
 
 </body>
 
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119780673-1');
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    $(document).ready(function () {
+
+        $(".filter-button").click(function () {
+            var value = $(this).attr('data-filter');
+
+            if (value == "all") {
+                //$('.filter').removeClass('hidden');
+                $('.filter').show('1000');
+            }
+            else {
+                //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                $(".filter").not('.' + value).hide('3000');
+                $('.filter').filter('.' + value).show('3000');
+
+            }
+        });
+
+        if ($(".filter-button").removeClass("active")) {
+            $(this).removeClass("active");
+        }
+        $(this).addClass("active");
+        $('.aaa').click();
+    });
+
+    function apri(id) {
+
+        var modal = document.getElementById('myModal');
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById(id);
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        modal.style.display = "block";
+        modalImg.src = img.src;
+        captionText.innerHTML = img.alt;
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    }
+
+</script>
 </html>
