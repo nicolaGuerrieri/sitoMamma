@@ -13,7 +13,7 @@ body{
   font-family: prova;
   src: url(DancingScript-Regular.otf);
 } 
-.bo {
+.bod {
   opacity: 0.9;
   filter: alpha(opacity=30); /* For IE8 and earlier */
 }
