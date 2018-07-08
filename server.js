@@ -1,7 +1,7 @@
 var static = require('node-static');
  
 var file = new static.Server('./public');
- var port = 80;
+ var port = 8080;
 require('http').createServer(function (request, response) {
     request.addListener('end', function () {
 
